@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul a.active{
+    background-color: #f1f1f3;
+    border-radius: 8px;
+    padding: 14px 24px;
+}
+nav .ul_2 a.active{
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#ff9500;
+}
+body{
+    background-color: #f7f7f8;
+}

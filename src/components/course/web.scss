@@ -1,0 +1,28 @@
+.big_div{
+    display: flex;
+    padding: 24px 30px;
+    border-radius: 8px;
+    justify-content: space-between;
+    width:100%;
+    border: 3px solid rgba(128, 128, 128, 0.218);
+
+    .small_div{
+        display: flex;
+        gap: 4px;
+        padding: 12px 14px;
+        border-radius: 6px;
+        justify-content: space-between;
+        min-width: 153px;
+        align-items: center;
+        justify-content: center;
+        background-color: #f7f7f8;
+    }
+}
+
+.big_div:hover{
+    border: 3px solid #ffd599;
+
+    .small_div{
+        background-color: #ffd599;
+    }
+}
